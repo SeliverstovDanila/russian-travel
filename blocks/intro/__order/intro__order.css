@@ -1,0 +1,24 @@
+.intro__order {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 150%;
+    max-width: 43.125rem;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__order {
+        padding: 0 1.5rem 0 1.5rem;
+        max-width: 45rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__order {
+        padding: 0;
+        max-width: 18rem;
+    }
+}

@@ -1,0 +1,28 @@
+.cover {
+    margin: 0 auto;
+    color: #FFFFFF;
+    max-width: 74rem;
+    height: 48.75rem;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-height: 40rem;
+        max-width: 64rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-height: 30rem;
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        max-height: 12.5rem;
+        max-width: 20rem;
+    }
+}
