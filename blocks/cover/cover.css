@@ -1,28 +1,28 @@
 .cover {
-    margin: 0 auto;
-    color: #FFFFFF;
     max-width: 74rem;
-    height: 48.75rem;
+    min-height: 46.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        max-height: 40rem;
-        max-width: 64rem;
+        min-height: 40rem;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
-        max-height: 30rem;
-        max-width: 48rem;
+        min-height: 30rem;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cover {
-        max-height: 12.5rem;
-        max-width: 20rem;
+        min-height: 12.5rem;
     }
 }

@@ -14,14 +14,11 @@
 
 .footer__link:hover {
     transition: transform 1s ease-in;
-    opacity: 55%;
-    color: aqua;
+    opacity: 50%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .footer__link {
-        font-style: normal;
-        font-weight: 400;
         font-size: 1.5rem;
         line-height: 100%;
         padding: 0 0 2rem 0;
